@@ -1,0 +1,183 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --bg-white-color: #ffffff;
+}
+
+ul li {
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.header {
+  background-color: var(--bg-white-color);
+}
+.main-section {
+  background-color: #2f303a;
+}
+.text-section {
+  background-color: #e5e5e5;
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.span-header {
+  color: var(--title-text-color);
+}
+.span-footer {
+  color: var(--bg-white-color);
+}
+.navigation .link {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.link-active {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.contacts-header:hover,
+.contacts-header:focus,
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
+}
+.map:hover,
+.map:focus {
+  color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--bg-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/* .list:active {
+  color: #ffffff;
+  background-color: var(--accent-color);
+} */
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+}
+.contacts-header {
+  color: var(--primary-text-color);
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link,
+.contacts-header,
+.contacts-footer {
+  text-decoration: none;
+}
+.main-title {
+  background: #2f303a;
+  color: var(--bg-white-color);
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+  font-family: inherit;
+}
+.feature {
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.image {
+  width: 370px;
+  height: 294px;
+}
+.photo {
+  width: 270px;
+  height: 260px;
+}
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.profession {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.address {
+  background: #2f303a;
+  font-style: normal;
+  line-height: 1.17;
+}
+/* .address .link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.17;
+} */
+.map {
+  color: var(--bg-white-color);
+  text-decoration: none;
+}
+.products {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+}
+.description {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
