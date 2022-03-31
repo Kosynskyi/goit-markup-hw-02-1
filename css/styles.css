@@ -15,12 +15,15 @@ html {
   --bg-white-color: #ffffff;
 }
 
-ul li {
+ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
+  margin: 0, auto;
+  /* padding-left: 215px; */
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -28,10 +31,16 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
+
 .header {
   background-color: var(--bg-white-color);
+  /* margin-top: 0;
+  margin-bottom: 0; */
 }
+
 .main-section {
+  margin-top: 0;
+  margin-bottom: 0;
   background-color: #2f303a;
   text-align: center;
 }
@@ -42,19 +51,41 @@ body {
   background-color: #f5f4fa;
 }
 .footer {
+  margin-top: 0;
+  margin-bottom: 0;
   background-color: #2f303a;
 }
-.logo {
-  color: var(--accent-color);
+
+/* оформление логотипа хедера */
+.logo-header,
+.span-header {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.14;
   text-decoration: none;
 }
+.logo-header {
+  color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .span-header {
   color: var(--title-text-color);
 }
+
+/* оформление логотипа футера */
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.logo-footer {
+  color: var(--accent-color);
+}
+
 .span-footer {
   color: var(--bg-white-color);
 }
@@ -62,6 +93,11 @@ body {
   font-weight: 500;
   line-height: 1.14;
   color: var(--title-text-color);
+}
+.navigation {
+  display: inline;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-active {
   color: var(--accent-color);
@@ -88,16 +124,15 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-/* .list:active {
-  color: #ffffff;
-  background-color: var(--accent-color);
-} */
+
 .contacts {
   font-weight: 500;
   line-height: 1.14;
 }
 .contacts-header {
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -108,24 +143,22 @@ body {
   text-decoration: none;
 }
 .main-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 696px;
+  margin: 0 auto 30px;
+  /* margin: 200px 452px 30px 452px; */
   background: #2f303a;
-  /* width: 1600px;
-  height: 600px; */
   color: var(--bg-white-color);
   font-size: 44px;
   line-height: 1.4;
   font-weight: 900;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .button {
-  display: inline-block;
   background: #f5f4fa;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 0;
   padding: 10px 32px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -134,8 +167,11 @@ body {
   text-align: center;
   cursor: pointer;
   font-family: inherit;
+  text-decoration: none;
 }
 .feature {
+  margin-top: 94px;
+  margin-bottom: 0;
   color: var(--title-text-color);
   text-transform: uppercase;
   font-weight: 700;
@@ -143,11 +179,15 @@ body {
   line-height: 1.14;
 }
 .text {
+  margin-top: 10px;
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.7;
 }
 .title {
+  margin-top: 94px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -155,14 +195,20 @@ body {
   text-align: center;
 }
 .image {
+  margin-top: 0;
+  margin-bottom: 94px;
   width: 370px;
   height: 294px;
 }
 .photo {
+  margin-top: 0;
+  margin-bottom: 30px;
   width: 270px;
   height: 260px;
 }
 .name {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -170,6 +216,9 @@ body {
   text-align: center;
 }
 .profession {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* margin-bottom: 30px; */
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -180,10 +229,6 @@ body {
   font-style: normal;
   line-height: 1.17;
 }
-/* .address .link {
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.17;
-} */
 .map {
   color: var(--bg-white-color);
   text-decoration: none;
@@ -199,4 +244,15 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
+}
+
+.container {
+  /* display: flex; */
+  width: 1200px;
+  margin-top: 0 auto;
+  padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  /* display: inline; */
 }
