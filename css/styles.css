@@ -96,8 +96,8 @@ img {
   color: var(--bg-white-color);
 }
 .navigation .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   font-weight: 500;
   line-height: 1.14;
   color: var(--title-text-color);
@@ -141,8 +141,8 @@ img {
 .contacts-header {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   color: var(--primary-text-color);
 }
 .contacts-footer {
