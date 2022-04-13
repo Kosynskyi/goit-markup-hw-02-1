@@ -386,6 +386,8 @@ img {
   margin-right: 0;
 }
 .filter {
+  display: flex;
+  justify-content: center;
   /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
