@@ -54,10 +54,13 @@ img {
 }
 .button-section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .footer {
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -81,8 +84,9 @@ img {
 
 
 .navigation .link {
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--title-text-color);
@@ -92,6 +96,7 @@ img {
   margin-left: 93px;
 }
 .link-active {
+  display: block;
   color: var(--accent-color);
   text-decoration: none;
   padding-top: 32px;
@@ -330,7 +335,6 @@ img {
 /* оформление логотипа футера */
 .container-footer {
   align-content: center;
-  padding-top: 60px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -363,6 +367,11 @@ img {
   margin-top: 0;
   margin-bottom: 9px;
 }
+
+.address-list:last-child {
+  margin-bottom: 0;
+}
+
 .address {
   background: #2f303a;
   font-style: normal;
@@ -378,8 +387,6 @@ img {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 56px;
-  padding-bottom: 94px;
 }
 .portfolio > .portfolio-list {
   margin-top: 0;
@@ -394,7 +401,7 @@ img {
 }
 .portfolio-img {
   margin-top: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* оформление кнопок портфолио */
@@ -423,10 +430,14 @@ img {
   border-radius: 4px;
   color: var(--bg-white-color);
 }
-.filter .button-radio {
-  margin-top: 0;
+.list-radio {
+  /* margin-top: 0; */
   margin-right: 8px;
 }
+.list-radio:last-child {
+  margin-right: 0;
+}
+
 .filter > .button-radio:last-child {
   margin-right: 0;
 }
@@ -436,13 +447,14 @@ img {
   /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 /* оформление картинок портфолио */
 
 .products {
-  margin: 0 auto 4px;
-  width: 322px;
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 2;
@@ -450,11 +462,18 @@ img {
   font-size: 18px;
 }
 .description {
-  margin: 0 auto 20px;
-  width: 322px;
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
+}
+.inner {
+  padding: 20px 24px;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  /* outline: 1px solid red; */
 }
 
 
