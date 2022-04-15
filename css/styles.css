@@ -185,7 +185,7 @@ img {
 .order:hover,
 .order:focus {
   color: var(--bg-white-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -245,7 +245,6 @@ img {
   margin: -1px;
 }
 
-
 /* оформление секции с картинками */
 
 .title-image {
@@ -283,9 +282,6 @@ img {
   margin-left: auto;
 }
 
-
-
-
 /* оформление team-section */
 .picture-list .item,
 .personal .photo-list {
@@ -302,11 +298,10 @@ img {
 }
 
 .photo-list {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
 }
-
 
 .exposition {
   margin-top: 0px;
@@ -332,8 +327,6 @@ img {
   line-height: 1.19;
   text-align: center;
 }
-
-
 
 /* оформление логотипа футера */
 .container-footer {
@@ -472,13 +465,10 @@ img {
 }
 .inner {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: none;
   /* border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE; */
   /* outline: 1px solid red; */
 }
-
-
-
